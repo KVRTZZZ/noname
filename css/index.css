@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333333;
+    color: white;
+}
+
+
+header{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.h1-header{
+    margin-bottom: 15px;
+}
+
+.pai{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.filho{
+    width: 70%;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+img {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: White;
+    display: flex;
+    align-items: center;
+}
+
+.pai .filho:hover{
+  transform: scale(1.2);
+  transition: all ease 500ms;
+  background-color: White; /**/
+  filter: invert(1);
+  color: black;
+  
+}
